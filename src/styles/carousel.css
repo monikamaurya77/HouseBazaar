@@ -1,0 +1,4 @@
+/* Optional: make transition smoother */
+.carousel-fade .carousel-item {
+    transition: opacity 2s ease-in-out;
+  }

@@ -1,26 +1,62 @@
-import React from 'react';
-
-const floorPlans = [
-  { type: '2 BHK', image: '/assets/floorplan1.jpg' },
-  { type: '3 BHK', image: '/assets/floorplan2.jpg' },
-];
+import React from "react";
+import floorplan1 from "../assets/floorplan1.webp";
+import bhk2 from "../assets/2bhk.webp";
+import bhk3 from "../assets/bhk3.webp";
+import bhk31 from "../assets/bhk31.webp";
+import bhk4 from "../assets/bhk4.webp";
 
 const FloorPlans = () => (
-  <section className="container my-5">
-    <h2 className="text-center mb-4">Floor Plans</h2>
-    <div className="row">
-      {floorPlans.map((plan, index) => (
-        <div className="col-md-6 mb-4" key={index}>
-          <div className="card">
-            <img src={plan.image} className="card-img-top" alt={`${plan.type} Floor Plan`} />
-            <div className="card-body">
-              <h5 className="card-title text-center">{plan.type}</h5>
-            </div>
+  <div className="custom-card container-fuild shadow-sm section">
+    <h2 className="head">Site & Floor Plan of Sai World Empire</h2>
+    <h6 className="section-heading-sub">Master Plan</h6>
+    <div className="master-plan">
+      <img src={floorplan1} height="284.15px" alt="floorplan1" />
+    </div>
+    <h6 className="section-heading-sub">Floor Plan</h6>
+    <div className="row row-cols-1 row-cols-md-3">
+      <div className="col-md-4">
+        <div className="at-property-item shadow-sm border border-grey mt-1">
+          <div className="at-property-img">
+            <img src={bhk2} alt="2BHK image" className="floor-plan-img" />
+          </div>
+          <div className="at-property-dis effetGradient">
+            2 BHK-791 - 924 Sq.ft.
           </div>
         </div>
-      ))}
+      </div>
+
+      <div className="col-md-4">
+        <div className="at-property-item shadow-sm border border-grey mt-1">
+          <div className="at-property-img">
+            <img src={bhk3}  alt="3BHK image" className="floor-plan-img"/>
+          </div>
+          <div className="at-property-dis effetGradient">
+          3 BHK-1094-1373 Sq.ft.
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="at-property-item shadow-sm border border-grey mt-1">
+          <div className="at-property-img">
+            <img src={bhk31}  alt="3BHK image" className="floor-plan-img"/>
+          </div>
+          <div className="at-property-dis effetGradient">
+          3 BHK-1178-1407 Sq.ft.
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="at-property-item shadow-sm border border-grey mt-1">
+          <div className="at-property-img">
+            <img src={bhk4} alt="4BHK image" className="floor-plan-img"/>
+          </div>
+          <div className="at-property-dis effetGradient">
+          4 BHK-2093 Sq.ft.
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 );
 
 export default FloorPlans;

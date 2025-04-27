@@ -1,0 +1,70 @@
+.navbar{
+  
+    line-height :24.192px;
+    letter-spacing: 0.3072px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+  
+    text-align: right !important;
+    width: 80%;
+}
+.navbar-brand {
+    padding: 0.2rem
+}
+.logo-1{
+    height: 38.4px;
+    max-width: 14vw;
+    padding: 0 5px 0 10px;
+    position: relative;
+    border-right: 1px solid #dbe4e9
+}
+.logo-2{
+   height:  3.9vw;
+}
+.navbar-nav{
+    height: 100% !important;
+}
+.nav-fill .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+}
+.navbar-collapse{
+    display: flex !important;
+    align-items: center;
+          
+       
+}
+
+.navbar-collapse ul li{
+    font-size : 1.05vw;
+    font-weight :400;
+    letter-spacing :0.3072px;
+line-height: 24.192px;
+font-family :Roboto, sans-serif
+}
+
+
+
+.nav-icon {
+   
+    font-size: 1.25vw;
+    /* font-size: 19.2px; */
+}
+
+.nav-link {
+    padding: 1.1vw .3vw !important;
+    border-right: .1vw solid #dbe4e9 !important; 
+
+}
+.nav-item:first-child {
+    border-left: .1vw solid #dbe4e9;
+}
+
+.nav-link {
+   /* padding: 16.896px 4.608px  !important;
+    */
+    padding: 1.1vw .39vw !important;
+   font-weight: 600;
+   /* 4.608px */
+}
