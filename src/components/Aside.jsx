@@ -41,7 +41,7 @@ const Aside = () => {
       <p className="pro-tag-line mb-0">
         Luxurious <span className="fw-700">2, 3 & 4 BHK </span>Starting at
       </p>
-      <p className="pro-price">
+      <p className="pro-price text-center">
         <span className="aside-price">₹ 1.81 Cr</span> Onwards
       </p>
       <button className='btn effetMoveGradient micro-form-btn'>Download Brochure</button>
