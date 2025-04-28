@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="custom-card container-fuild shadow-sm section">
       <h4 className="section-heading color-primary fw-600">Welcome to Sai World Empire</h4>
-      <p style={{border:"2px solid red"}}>
+      <p>
         Inspired by the grandeur of the glorious kingdoms of old - the Sai World
         Empire in Kharghar is built along the lines of famous royal
         civilisations. Its exquisite 2, 3, and 4 BHK apartments with stylish
