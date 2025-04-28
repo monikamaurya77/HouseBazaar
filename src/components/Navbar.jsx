@@ -6,9 +6,9 @@ import { GrMoney } from "react-icons/gr";
 import { GiPackedPlanks } from "react-icons/gi";
 import { IoWifi } from "react-icons/io5";
 import { GrGallery } from "react-icons/gr";
-import { MdLocationOn } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
+import { MdLocationOn } from "react-icons/md";
 import "../styles/navbar.css";
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav nav-fill">
           <li className="nav-item  ">
-            <a className="nav-link" href="#home">
+            <a className="nav-link px-2" href="#home">
               <IoHome className="nav-icon" />
             </a>
           </li> 
@@ -68,7 +68,8 @@ const Navbar = () => {
         
           <li className="nav-item  ">
             <a className="nav-link" href="#address_section">
-              <i class="mi mi-location nav-icon"></i>
+              {/* <i class="mi mi-location nav-icon"></i> */}
+              <MdLocationOn  className="nav-icon"/>
               <span className="ps-2 mt-1">Location</span>
             </a>
           </li>
@@ -82,7 +83,8 @@ const Navbar = () => {
          
           <li className="nav-item  ">
             <a className="nav-link" href="#services">
-              <FaDownload />
+             
+              <FaDownload className="mi mi-download nav-icon d-inline-block animated slideInDown infinite"/>
               <span className="ps-2 mt-1">Download brochure</span>
             </a>
           </li>

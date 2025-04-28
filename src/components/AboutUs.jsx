@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaDownload } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <div className="custom-card container-fuild shadow-sm section">
@@ -15,7 +15,7 @@ const AboutUs = () => {
         etc.
       </p>
       <p className="text-decoration-underline pb-1">Read more</p>
-      <button>Download Brochuer</button>
+      <button className="btn  effetMoveGradient"><FaDownload className="mi mi-download nav-icon d-inline-block animated slideInDown infinite"/><span className="ps-2">Download Brochure</span></button>
     </div>
   );
 };

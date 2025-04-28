@@ -42,7 +42,7 @@ const Amenities = () => {
           <h4 className="head">Amenities of Sai World Empire</h4>
         </div>
         <div className="col-md-4 text-end">
-          <button className="btn btn-primary">Download Amenities</button>
+          <button className="btn btn-primary btn effetMoveGradient">Download Amenities</button>
         </div>
       </div>
 

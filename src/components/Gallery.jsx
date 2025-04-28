@@ -12,7 +12,7 @@ const Gallery = () => {
         <h4 className="head">Gallery of Sai World Empire</h4>
         </div>
         <div className="col-md-4 text-end">
-        <button>Download Gallery</button>
+        <button className="btn effetMoveGradient">Download Gallery</button>
         </div>
         </div>
     <div className='row'>

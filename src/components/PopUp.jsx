@@ -13,7 +13,7 @@ const PopUp = () => {
         <div className="modal-content">
         
           <div className="modal-header">
-            <h5 className="modal-title" id="exampleModalLabel">Download Brochure</h5>
+            <h5 className="modal-title" id="exampleModalLabel">Virtual Site Visit</h5>
             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           
@@ -66,8 +66,8 @@ const PopUp = () => {
           />
         </div>
         <div className="col-12 text-center">
-          <button type="submit" className="btn btn-primary px-5">
-            Download Now
+          <button type="submit" className="btn effetMoveGradient">
+           Start Tour
           </button>
         </div>
       </form>

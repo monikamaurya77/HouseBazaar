@@ -10,15 +10,16 @@ const VirtualTourRequest = () => {
       <div className='d-none d-xs-none d-sm-none d-md-block d-lg-block'>
     <img src={bgImage} alt="bg-logo" className='img-responsive w-100'/>
     </div>
-    <div>
-      
+    <div className='vsv-text-bk'>
+      <div className='vsv-text-bg'>
+<div className='vsv-icon'></div>
+<p className='text-uppercase h1 font-weight-bold mb-0 d-none d-lg-block text-white text-center'>Virtual Site Visit</p>
+<span className='text-capitalize text-center d-none d-lg-block text-white '> Sai World Empire </span>
+
+      </div>
     </div>
         </div>
-  <div>
-  <FaCirclePlay />
-    <p>Virtual Site Visit</p>
-    <p> Sai World Empire </p>
-  </div>
+
     </div>
   )
 }

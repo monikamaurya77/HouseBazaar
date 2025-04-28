@@ -3,24 +3,21 @@ import homebazaarLogo from "../assets/homebazaar_logo.svg"
 
 const AboutHouseBazaar= () => {
   return (
-    <section id="about" className="py-4 custom-card">
+    <div className="custom-card container-fuild shadow-sm section" id="about">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-12">
-        <div className="d-flex justify-content-between">
-        
-     <div>
+        <div className="row align-items-center">   
+     <div className="col-md-8">
      <h4 className="section-heading-sub text-capitalize">About HouseBazaar</h4>
      </div>
          
-            <div>
+            <div className="col-md-4 text-end">
         <img
               src={homebazaarLogo}
               alt="home bazaar Logo"
               className="img-fluid rounded"
             />
         </div>
-        </div> 
+       
             <p>
               Housebazaar, an esteemed initiative of HomeBazaar.com, operates as
               a dedicated platform exclusively designed to promote our esteemed
@@ -33,10 +30,10 @@ const AboutHouseBazaar= () => {
               substantial growth.
             </p>
          
-          </div>
+        
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

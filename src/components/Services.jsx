@@ -23,44 +23,47 @@ const Services = () => {
               <td>791 - 924 Sq. Ft.</td>
               <td>₹ 1.81 Cr Onwards	</td>
               <td>Phase 1 / Phase 2</td>
-              <td><button>Price Breakup</button></td>
+              <td><button className="btn btn-sm effetGradient effectScale">Price Breakup</button></td>
             </tr>
             <tr>
               <td>3 BHK</td>
               <td>1094-1373 Sq. Ft.	</td>
               <td>₹ 2.46 Cr Onwards</td>
               <td>Phase 2</td>
-              <td><button>Price Breakup</button></td>
+              <td><button className="btn btn-sm effetGradient effectScale">Price Breakup</button></td>
             </tr>
             <tr>
               <td>3 BHK</td>
               <td>1178-1407 Sq. Ft.</td>
               <td>₹ 2.64 Cr Onwards</td>
               <td>Phase 1</td>
-              <td><button>Price Breakup</button></td>
+              <td><button className="btn btn-sm effetGradient effectScale">Price Breakup</button></td>
             </tr>
             <tr>
               <td>4 BHK</td>
               <td>2173-2189 Sq. Ft.	</td>
               <td>₹ 4.02 Cr Onwards	</td>
               <td>Phase 2</td>
-              <td><button>Price Breakup</button></td>
+              <td><button className="btn btn-sm effetGradient effectScale">Price Breakup</button></td>
             </tr>
             <tr>
               <td>4 BHK</td>
               <td>2093 Sq. Ft.</td>
               <td>₹  4.58 Cr Onwards</td>
               <td>Phase 1</td>
-              <td><button>Price Breakup</button></td>
+              <td><button className="btn btn-sm effetGradient effectScale">Price Breakup</button></td>
             </tr>
           </tbody>
         </table>
         </div>
        </div>
-       <div className='col-md-4 at-property-img lazyloaded'>
+       <div className='col-md-4 '>
+        <div className='at-property-item'>
+        <div className='at-property-img'>
         <img src={image} alt="costimg image" className='w-100'/>
-        <div className='at-property-overlayer'>
-
+        <div className='at-property-overlayer'>   </div>
+        <span className='btn btn-default at-property-btn'>Enquire Now</span>
+        </div>
         </div>
         <div className='at-property-dis effetGradient'>
         Complete Costing Details

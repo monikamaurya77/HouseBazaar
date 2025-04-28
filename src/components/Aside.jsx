@@ -29,8 +29,8 @@ const Aside = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <div className="aside-blue-container">
-          <div className="offer-text">
+        <div className="aside-blue-container offer-bg-animation text-center">
+          <div className="offer-text text-center">
             <p>- Spot Booking Offer</p>
             <p>- Early Buy Discount</p>
             <p>- Guaranteed Best Rate</p>
@@ -44,7 +44,7 @@ const Aside = () => {
       <p className="pro-price">
         <span className="aside-price">₹ 1.81 Cr</span> Onwards
       </p>
-      <button>Download Brochure</button>
+      <button className='btn effetMoveGradient '>Download Brochure</button>
     </div>
   );
 };
