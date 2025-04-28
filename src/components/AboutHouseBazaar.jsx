@@ -18,7 +18,7 @@ const AboutHouseBazaar= () => {
             />
         </div>
        
-            <p>
+            <p className="mobile-p">
               Housebazaar, an esteemed initiative of HomeBazaar.com, operates as
               a dedicated platform exclusively designed to promote our esteemed
               partner brands. With a commitment to facilitating effective and

@@ -42,7 +42,7 @@ const Amenities = () => {
           <h4 className="head">Amenities of Sai World Empire</h4>
         </div>
         <div className="col-md-4 text-end">
-          <button className="btn btn-primary btn effetMoveGradient">Download Amenities</button>
+          <button className="btn btn-primary btn effetMoveGradient d-none d-md-block">Download Amenities</button>
         </div>
       </div>
 
@@ -79,6 +79,10 @@ const Amenities = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+<div className='text-center d-block d-md-none mt-4'>
+<button className="btn btn-primary btn effetMoveGradient micro-form-btn">Download Amenities</button>
+</div>
+    
     </div>
   );
 };

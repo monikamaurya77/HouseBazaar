@@ -44,7 +44,7 @@ const Aside = () => {
       <p className="pro-price">
         <span className="aside-price">₹ 1.81 Cr</span> Onwards
       </p>
-      <button className='btn effetMoveGradient '>Download Brochure</button>
+      <button className='btn effetMoveGradient micro-form-btn'>Download Brochure</button>
     </div>
   );
 };

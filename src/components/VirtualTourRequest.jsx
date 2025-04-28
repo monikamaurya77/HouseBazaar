@@ -10,6 +10,10 @@ const VirtualTourRequest = () => {
       <div className='d-none d-xs-none d-sm-none d-md-block d-lg-block'>
     <img src={bgImage} alt="bg-logo" className='img-responsive w-100'/>
     </div>
+    <div className='d-block d-xs-block d-sm-block d-md-none d-lg-none'>
+    <img src={bgImage} alt="bg-logo" className='img-responsive w-100'/>
+    </div>
+    <span className='text-center d-block d-lg-none content-clr mt-2'>Virtual Site visit</span>
     <div className='vsv-text-bk'>
       <div className='vsv-text-bg'>
 <div className='vsv-icon'></div>

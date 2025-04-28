@@ -11,7 +11,7 @@ const Gallery = () => {
        <div className="col-md-8">
         <h4 className="head">Gallery of Sai World Empire</h4>
         </div>
-        <div className="col-md-4 text-end">
+        <div className="col-md-4 text-end d-none d-md-block">
         <button className="btn effetMoveGradient">Download Gallery</button>
         </div>
         </div>
@@ -30,6 +30,9 @@ const Gallery = () => {
         <img src={image4} alt="gallery image" height="149.6px" className='rounded-4 gallery-thumb'/>
         </div>
         </div>
+        <div className='text-center d-block d-md-none mt-4'>
+<button className="btn btn-primary btn effetMoveGradient micro-form-btn">Download Gallery</button>
+</div>
     </div>
   )
 }

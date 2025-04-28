@@ -12,7 +12,7 @@ const AboutParadiseGroup = () => {
       <div className="container">
     
             <div className="text-center">
-                <img src={logo} height="65px" alt="logo"/>
+                <img src={logo} height="65px" alt="logo" className="paradise-logo"/>
             </div>
           <div className="row ">
            
@@ -22,7 +22,7 @@ const AboutParadiseGroup = () => {
                 </h4>
               </div>
 
-              <div className="col-md-4 text-end">
+              <div className="col-md-4 text-end d-none d-md-block">
                 <button className="btn effetMoveGradient">Chat with us</button>
               </div>
         </div>
@@ -75,7 +75,9 @@ const AboutParadiseGroup = () => {
 
           </div>
       
-  
+          <div className='text-center d-block d-md-none mt-4'>
+<button className="btn btn-primary btn effetMoveGradient micro-form-btn">Chat with US</button>
+</div>
     </div>
   );
 };

@@ -15,7 +15,7 @@ const AboutUs = () => {
         etc.
       </p>
       <p className="text-decoration-underline pb-1">Read more</p>
-      <button className="btn  effetMoveGradient"><FaDownload className="mi mi-download nav-icon d-inline-block animated slideInDown infinite"/><span className="ps-2">Download Brochure</span></button>
+      <button className="btn  effetMoveGradient micro-form-btn"><FaDownload className="mi mi-download nav-icon d-inline-block animated slideInDown infinite"/><span className="ps-2">Download Brochure</span></button>
     </div>
   );
 };
