@@ -241,6 +241,7 @@ p {
 }
 .carousel-item {
   position: relative;
+  transition: transform 1s ease-in-out; 
 }
 
 /* carousel.css */
