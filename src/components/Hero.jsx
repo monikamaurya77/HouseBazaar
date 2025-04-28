@@ -9,7 +9,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % 2); // Cycle through 2 slides
-    }, 3000); // Change every 3 seconds
+    }, 5000); // Change every 5 seconds
 
     return () => clearInterval(interval); // Clean up interval on component unmount
   }, []);
